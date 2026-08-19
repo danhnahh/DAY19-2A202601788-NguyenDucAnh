@@ -1,0 +1,56 @@
+type,left,right,similarity,lexical_ratio,decision,reason
+Company,Amazon.com,Amazon,1.0,1.0,MERGE_MANUAL,khop alias map thu cong (ticker / ten phap ly)
+Company,AMD,Advanced Micro Devices,1.0,1.0,MERGE_MANUAL,khop alias map thu cong (ticker / ten phap ly)
+Company,Microsoft Corp,Microsoft,1.0,1.0,MERGE_MANUAL,khop alias map thu cong (ticker / ten phap ly)
+Company,Fidelity National Information Services,Fidelity National Information Services Inc.,0.92452,1.0,MERGE_VECTOR,cosine 0.925 >= 0.9 va lexical 1.000 >= 0.72
+Company,Fujitsu Limited,Fujitsu,0.92391,1.0,MERGE_VECTOR,cosine 0.924 >= 0.9 va lexical 1.000 >= 0.72
+Technology,cloud computing service,cloud-computing services,0.91449,0.93617,MERGE_VECTOR,cosine 0.914 >= 0.9 va lexical 0.936 >= 0.72
+Technology,cloud-computing services,cloud-computing,0.91247,0.76923,MERGE_VECTOR,cosine 0.912 >= 0.9 va lexical 0.769 >= 0.72
+Company,Fidelity National Information Services,Fidelity National Information Services (FIS),0.89917,0.95,REJECT_THRESHOLD,cosine 0.899 < merge threshold 0.9
+Company,L&T Technology Services Ltd.,L&T Technology Services,0.86609,1.0,REJECT_THRESHOLD,cosine 0.866 < merge threshold 0.9
+Company,Fidelity National Information Services (FIS),Fidelity National Information Services Inc.,0.854,0.95,REJECT_THRESHOLD,cosine 0.854 < merge threshold 0.9
+Technology,cloud computing unit,cloud computing service,0.84334,0.7907,REJECT_THRESHOLD,cosine 0.843 < merge threshold 0.9
+Company,Cisco,Cisco Systems,0.84185,0.55556,REJECT_THRESHOLD,cosine 0.842 < merge threshold 0.9
+Technology,cloud computing service,cloud-computing,0.8344,0.73684,REJECT_THRESHOLD,cosine 0.834 < merge threshold 0.9
+Company,Tech companies,tech manufacturers,0.82789,0.625,REJECT_THRESHOLD,cosine 0.828 < merge threshold 0.9
+Technology,AI,AI service,0.78368,0.33333,REJECT_THRESHOLD,cosine 0.784 < merge threshold 0.9
+Technology,Llama 2,Code Llama,0.78353,0.58824,REJECT_THRESHOLD,cosine 0.784 < merge threshold 0.9
+Technology,cloud computing unit,cloud-computing services,0.78044,0.72727,REJECT_THRESHOLD,cosine 0.780 < merge threshold 0.9
+Technology,My Cloud,My Cloud Service,0.758,0.66667,REJECT_THRESHOLD,cosine 0.758 < merge threshold 0.9
+Company,Alibaba,Alibaba Cloud,0.75418,0.7,REJECT_THRESHOLD,cosine 0.754 < merge threshold 0.9
+Technology,cloud computing service,My Cloud Service,0.7537,0.66667,REJECT_THRESHOLD,cosine 0.754 < merge threshold 0.9
+Technology,cloud computing unit,cloud-computing,0.75007,0.8,REJECT_THRESHOLD,cosine 0.750 < merge threshold 0.9
+Company,Technicolor,Technicolor Creative Studios,0.73979,0.5641,REJECT_THRESHOLD,cosine 0.740 < merge threshold 0.9
+Company,tech giant,Tech Nation,0.73908,0.66667,REJECT_THRESHOLD,cosine 0.739 < merge threshold 0.9
+Company,Tech companies,tech giant,0.72781,0.58333,REJECT_THRESHOLD,cosine 0.728 < merge threshold 0.9
+Technology,Google Cloud,My Cloud Service,0.7233,0.42857,REJECT_THRESHOLD,cosine 0.723 < merge threshold 0.9
+Technology,Technology,Technology Issues,0.71619,0.74074,REJECT_THRESHOLD,cosine 0.716 < merge threshold 0.9
+Company,Tech companies,Tech Nation,0.71301,0.56,REJECT_THRESHOLD,cosine 0.713 < merge threshold 0.9
+Company,tech giant,tech manufacturers,0.6999,0.57143,REJECT_THRESHOLD,cosine 0.700 < merge threshold 0.9
+Company,tech manufacturers,Tech Nation,0.6984,0.48276,REJECT_THRESHOLD,cosine 0.698 < merge threshold 0.9
+Technology,cloud-computing services,My Cloud Service,0.69657,0.65,REJECT_THRESHOLD,cosine 0.697 < merge threshold 0.9
+Company,Institute,Uptime Institute,0.68654,0.72,REJECT_THRESHOLD,cosine 0.687 < merge threshold 0.9
+Technology,cloud computing service,Google Cloud,0.6863,0.28571,REJECT_THRESHOLD,cosine 0.686 < merge threshold 0.9
+Technology,cloud computing unit,My Cloud Service,0.67069,0.38889,REJECT_THRESHOLD,cosine 0.671 < merge threshold 0.9
+Technology,cloud computing unit,Google Cloud,0.66867,0.3125,REJECT_THRESHOLD,cosine 0.669 < merge threshold 0.9
+Technology,Google Cloud,cloud-computing,0.66779,0.37037,REJECT_THRESHOLD,cosine 0.668 < merge threshold 0.9
+Company,Zanaris,Zamit,0.6588,0.5,REJECT_THRESHOLD,cosine 0.659 < merge threshold 0.9
+Technology,My Cloud,Google Cloud,0.65298,0.6,REJECT_THRESHOLD,cosine 0.653 < merge threshold 0.9
+Technology,cloud-computing services,Google Cloud,0.64887,0.27778,REJECT_THRESHOLD,cosine 0.649 < merge threshold 0.9
+Company,Amazon,Amazon Web Services,0.64699,0.48,REJECT_THRESHOLD,cosine 0.647 < merge threshold 0.9
+Company,Tencent Cloud,10Clouds,0.64343,0.47619,REJECT_THRESHOLD,cosine 0.643 < merge threshold 0.9
+Technology,My Cloud Service,cloud-computing,0.64039,0.3871,REJECT_THRESHOLD,cosine 0.640 < merge threshold 0.9
+Company,Google Cloud,Alibaba Cloud,0.63947,0.56,REJECT_THRESHOLD,cosine 0.639 < merge threshold 0.9
+Company,Tencent Cloud,Cloud 10 Studios,0.63846,0.34483,REJECT_THRESHOLD,cosine 0.638 < merge threshold 0.9
+Technology,Technology,Office of Technology,0.63705,0.66667,REJECT_THRESHOLD,cosine 0.637 < merge threshold 0.9
+Company,Infosys,WebClues Infotech,0.63647,0.33333,REJECT_THRESHOLD,cosine 0.636 < merge threshold 0.9
+Company,Tech companies,Dell Technologies Inc.,0.63169,0.51613,REJECT_THRESHOLD,cosine 0.632 < merge threshold 0.9
+Technology,Technology,video game technology,0.61529,0.64516,REJECT_THRESHOLD,cosine 0.615 < merge threshold 0.9
+Company,Dell Technologies Inc.,tech manufacturers,0.61327,0.4,REJECT_THRESHOLD,cosine 0.613 < merge threshold 0.9
+Technology,Apex Cloud Platforms,cloud-computing services,0.61268,0.36364,REJECT_THRESHOLD,cosine 0.613 < merge threshold 0.9
+Technology,Apex Cloud Platforms,cloud computing service,0.61117,0.4186,REJECT_THRESHOLD,cosine 0.611 < merge threshold 0.9
+Technology,Technology,clean technology,0.60975,0.76923,REJECT_THRESHOLD,cosine 0.610 < merge threshold 0.9
+Company,Siemens Technology and Services Pvt. Ltd.,L&T Technology Services Ltd.,0.60933,0.68966,REJECT_THRESHOLD,cosine 0.609 < merge threshold 0.9
+Technology,Apex Cloud Platforms,cloud computing unit,0.60908,0.4,REJECT_THRESHOLD,cosine 0.609 < merge threshold 0.9
+Company,A-B Tech,tech manufacturers,0.60721,0.30769,REJECT_THRESHOLD,cosine 0.607 < merge threshold 0.9
+Technology,My Cloud,cloud-computing,0.60206,0.43478,REJECT_THRESHOLD,cosine 0.602 < merge threshold 0.9

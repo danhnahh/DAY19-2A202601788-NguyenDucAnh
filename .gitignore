@@ -19,11 +19,24 @@ env/
 
 # Large Datasets and data dumps (do not commit 300MB data dumps)
 *.csv
-golden_dataset.csv
-!reports/*.csv
 *.jsonl
 *.parquet
 *.pq
+
+# ...nhưng các file nộp bài bắt buộc phải được commit
+!reports/*.csv
+!outputs/*.csv
+!data/golden_dataset.csv
+# Golden Dataset tự xây (RUBRIC 3.1) - bắt buộc nộp, không được để *.csv nuốt mất
+!data/graphrag_golden_50_first5000.csv
+!data/graphrag_golden_50_first5000_detailed.csv
+
+# Bản Excel chỉ là export trùng nội dung với file .csv ở trên
+*.xlsx
+
+# Dataset thô stream từ Hugging Face: tuyệt đối không commit
+hackernoon_subset.csv
+graphrag_eval_checkpoint.csv
 
 # OS files
 .DS_Store

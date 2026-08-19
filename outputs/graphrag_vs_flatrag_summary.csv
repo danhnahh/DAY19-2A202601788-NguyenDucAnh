@@ -1,0 +1,21 @@
+Loai cau hoi,So cau,Metric,Flat RAG,GraphRAG,Delta,Nhan xet phan tich
+cross-doc,7,Comprehensiveness,3.143,3.143,0.0,Hai phuong phap gan nhau (delta +0.00).
+cross-doc,7,Faithfulness,4.571,4.286,-0.286,Hai phuong phap gan nhau (delta -0.29).
+cross-doc,7,Multi-hop reasoning,3.429,3.571,0.143,Hai phuong phap gan nhau (delta +0.14).
+cross-doc,7,Latency (s),2.555,2.08,-0.475,GraphRAG re hon (x0.81) vi subgraph ngan hon context vector.
+cross-doc,7,Token usage,798.714,786.143,-12.571,GraphRAG re hon (x0.98) vi subgraph ngan hon context vector.
+factoid,2,Comprehensiveness,5.0,5.0,0.0,Hai phuong phap gan nhau (delta +0.00).
+factoid,2,Faithfulness,5.0,5.0,0.0,Hai phuong phap gan nhau (delta +0.00).
+factoid,2,Multi-hop reasoning,5.0,5.0,0.0,Hai phuong phap gan nhau (delta +0.00).
+factoid,2,Latency (s),1.523,1.199,-0.324,GraphRAG re hon (x0.79) vi subgraph ngan hon context vector.
+factoid,2,Token usage,813.5,612.0,-201.5,GraphRAG re hon (x0.75) vi subgraph ngan hon context vector.
+multi-hop,3,Comprehensiveness,5.0,4.0,-1.0,Flat RAG tot hon (-1.00); graph extraction/retrieval gay mat thong tin hoac nhieu.
+multi-hop,3,Faithfulness,5.0,4.667,-0.333,Hai phuong phap gan nhau (delta -0.33).
+multi-hop,3,Multi-hop reasoning,5.0,4.333,-0.667,Flat RAG tot hon (-0.67); graph extraction/retrieval gay mat thong tin hoac nhieu.
+multi-hop,3,Latency (s),2.134,2.67,0.536,GraphRAG ton x1.25 so voi Flat RAG - gia phai tra cho subgraph context.
+multi-hop,3,Token usage,833.0,1053.333,220.333,GraphRAG ton x1.26 so voi Flat RAG - gia phai tra cho subgraph context.
+ALL,12,Comprehensiveness,3.917,3.667,-0.25,Hai phuong phap gan nhau (delta -0.25).
+ALL,12,Faithfulness,4.75,4.5,-0.25,Hai phuong phap gan nhau (delta -0.25).
+ALL,12,Multi-hop reasoning,4.083,4.0,-0.083,Hai phuong phap gan nhau (delta -0.08).
+ALL,12,Latency (s),2.278,2.081,-0.197,GraphRAG re hon (x0.91) vi subgraph ngan hon context vector.
+ALL,12,Token usage,809.75,823.917,14.167,GraphRAG ton x1.02 so voi Flat RAG - gia phai tra cho subgraph context.

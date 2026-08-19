@@ -1,0 +1,26 @@
+id,group,matched_seeds,matched_seed_names,declared_seeds_in_graph,declared_seeds_total,declared_hits
+G5000-26,multi-hop,0,,1,2,Amazon
+G5000-27,cross-doc,0,,1,2,AMD
+G5000-28,multi-hop,2,"Google Cloud, OpenAI",3,4,"Google Cloud, Meta, Technology Innovation Institute"
+G5000-29,cross-doc,0,,4,7,"White House, Google, Meta, OpenAI"
+G5000-30,multi-hop,2,"Meta, AI",3,3,"Meta, Google Cloud, White House"
+G5000-31,multi-hop,1,OpenAI,2,3,"OpenAI, AP"
+G5000-32,cross-doc,1,OpenAI,1,2,OpenAI
+G5000-33,cross-doc,0,,3,3,"OpenAI, Associated Press, White House"
+G5000-34,multi-hop,0,,4,6,"Google Cloud, Amazon, Meta, Technology Innovation Institute"
+G5000-35,cross-doc,0,,2,4,"AMD, LLM"
+G5000-36,cross-doc,2,"Amazon, AI",1,2,Amazon
+G5000-37,cross-doc,0,,1,2,Dell
+G5000-38,multi-hop,0,,3,4,"Dell, APEX Cloud Platforms, Microsoft Azure"
+G5000-39,multi-hop,0,,1,4,LLM
+G5000-40,cross-doc,0,,3,4,"Dell, Microsoft Azure, LLM"
+G5000-41,factoid,0,,0,3,
+G5000-42,multi-hop,0,,0,3,
+G5000-43,cross-doc,0,,0,1,
+G5000-44,multi-hop,1,L&T Technology Services,2,4,"L&T Technology Services, Qualcomm"
+G5000-45,cross-doc,2,"L&T Technology Services, Qualcomm",2,3,"L&T Technology Services, Qualcomm"
+G5000-46,cross-doc,0,,1,4,L&T Technology Services
+G5000-47,factoid,0,,0,3,
+G5000-48,multi-hop,0,,2,2,"Snowflake, H2O.ai"
+G5000-49,multi-hop,0,,0,5,
+G5000-50,multi-hop,1,Advanced Micro Devices,2,4,"AMD, Intel"
